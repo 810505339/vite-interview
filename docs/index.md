@@ -14,7 +14,7 @@ hero:
       link: /guide/what-is-vitepress
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/810505339/vite-interview
 ---
 
 

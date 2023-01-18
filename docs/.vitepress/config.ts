@@ -5,7 +5,7 @@ export default defineConfig({
     siteTitle: '面试指南',
     logo: '/dogs.png',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/gumingWu/vitepress-fun' }
+      { icon: 'github', link: 'https://github.com/810505339/vite-interview' }
     ],
    
   },
