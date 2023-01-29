@@ -11,11 +11,10 @@ export default defineConfig({
       {
         text: 'js面试',
         items: [
-          { text: 'var let const 的区别', link: '/js/var-let-const' },
+          { text: 'var let const 的区别', link: '/js/var-let-const'},
           { text: 'Getting Started', link: '/getting-started' },
         ],
-        collapsible: true,
-        collapsed: true
+        collapsible: true 
       }
     ],
   },
