@@ -76,3 +76,14 @@ var foo = 33;
 }
 
 ```
+
+## 3.let 与 const 的异同
+const 与 let 很类似，都具有上面提到的 let 的特性，唯一区别就在于 const 声明的是一个只读变量，声明之后不允许改变其值。因此，const 一旦声明必须初始化，否则会报错。
+
+```ts
+let a;
+const b = "constant"
+
+a = 'variable'
+b = 'change' // TypeError: Assignment to constant variable
+```
