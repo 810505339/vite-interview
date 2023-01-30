@@ -7,15 +7,16 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/810505339/vite-interview' }
     ],
-    sidebar:{
+    sidebar: {
       '/js/': [
         {
           text: 'js面试',
           items: [
-            { text: 'var let const 的区别', link: '/js/var-let-const'},
+            { text: 'var let const 的区别', link: '/js/var-let-const' },
             { text: '防抖和节流', link: '/js/防抖和节流' },
+            { text: '继承', link: '/js/继承' },
           ],
-          collapsible: true 
+          collapsible: true
         }
       ]
     },
