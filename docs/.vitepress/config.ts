@@ -17,6 +17,7 @@ export default defineConfig({
             { text: '继承', link: '/js/继承' },
             { text: '深拷贝和浅拷贝', link: '/js/深拷贝和浅拷贝' },
             { text: 'promise', link: '/js/promise' },
+            { text: '渲染10w条数据', link: '/js/渲染10w条数据' },
           ],
           collapsible: true
         }
