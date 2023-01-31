@@ -20,6 +20,8 @@ export default defineConfig({
           { text: '闭包', link: '/js/闭包' },
           { text: '预编译', link: '/js/预编译' },
           { text: 'this指向面试题总结', link: '/js/this指向面试题总结' },
+          { text: '数组方法', link: '/js/数组方法' },
+          { text: '解构赋值', link: '/js/解构赋值' },
         ],
         collapsible: true
       },
