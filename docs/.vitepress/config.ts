@@ -7,9 +7,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/810505339/vite-interview' }
     ],
-    sidebar:  [
+    sidebar: [
       {
-        text: 'js面试',
+        text: 'javascript',
         items: [
           { text: 'var let const 的区别', link: '/js/var-let-const' },
           { text: '防抖和节流', link: '/js/防抖和节流' },
@@ -26,10 +26,18 @@ export default defineConfig({
         collapsible: true
       },
       {
-        text: 'css面试',
+        text: 'css',
         items: [
           { text: 'BFC相关', link: '/css/BFC' },
           { text: 'flex', link: '/css/flex' },
+        ],
+        collapsible: false
+      },
+      {
+        text: 'vue',
+        items: [
+          { text: 'vue中为什么data()是一个函数？', link: '/vue/vue中为什么data()是一个函数' },
+         
         ],
         collapsible: false
       }
