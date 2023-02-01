@@ -24,6 +24,8 @@ export default defineConfig({
           { text: '数组方法', link: '/js/数组方法' },
           { text: '解构赋值', link: '/js/解构赋值' },
           { text: '判断js数据类型', link: '/js/判断js数据类型' },
+          { text: 'new发生了什么', link: '/js/new发生了什么' },
+          { text: '原型链和原型', link: '/js/原型链和原型' },
 
         ],
         collapsible: true
