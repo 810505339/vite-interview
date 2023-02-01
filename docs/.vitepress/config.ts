@@ -45,6 +45,14 @@ export default defineConfig({
          
         ],
         collapsible: false
+      },
+      {
+        text: 'git',
+        items: [
+          { text: 'git操作', link: '/git/git操作' },
+         
+        ],
+        collapsible: false
       }
 
     ],
