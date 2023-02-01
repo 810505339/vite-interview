@@ -53,6 +53,14 @@ export default defineConfig({
 
         ],
         collapsible: false
+      },
+      {
+        text: 'other',
+        items: [
+          { text: '浏览器中输入url后发生了什么', link: '/other/浏览器中输入url后发生了什么' },
+
+        ],
+        collapsible: false
       }
 
     ],
