@@ -42,7 +42,7 @@ export default defineConfig({
         text: 'vue',
         items: [
           { text: 'vue中为什么data()是一个函数？', link: '/vue/vue中为什么data()是一个函数' },
-         
+          { text: 'vue中的生命周期', link: '/vue/vue生命周期' },
         ],
         collapsible: false
       },
@@ -50,7 +50,7 @@ export default defineConfig({
         text: 'git',
         items: [
           { text: 'git操作', link: '/git/git操作' },
-         
+
         ],
         collapsible: false
       }
