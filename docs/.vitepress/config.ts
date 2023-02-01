@@ -11,6 +11,7 @@ export default defineConfig({
       {
         text: 'javascript',
         items: [
+          { text: 'js的数据类型', link: '/js/js的数据类型' },
           { text: 'var let const 的区别', link: '/js/var-let-const' },
           { text: '防抖和节流', link: '/js/防抖和节流' },
           { text: '继承', link: '/js/继承' },
@@ -22,6 +23,8 @@ export default defineConfig({
           { text: 'this指向面试题总结', link: '/js/this指向面试题总结' },
           { text: '数组方法', link: '/js/数组方法' },
           { text: '解构赋值', link: '/js/解构赋值' },
+          { text: '判断js数据类型', link: '/js/判断js数据类型' },
+
         ],
         collapsible: true
       },
