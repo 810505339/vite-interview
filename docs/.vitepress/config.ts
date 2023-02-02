@@ -62,7 +62,7 @@ export default defineConfig({
         text: 'other',
         items: [
           { text: '浏览器中输入url后发生了什么', link: '/other/浏览器中输入url后发生了什么' },
-          { text: '性能优化', link: '/other/浏览器中输入url后发生了什么' },
+          { text: '性能优化', link: '/other/性能优化' },
 
         ],
         collapsed: true
