@@ -28,7 +28,7 @@ export default defineConfig({
           { text: '原型链和原型', link: '/js/原型链和原型' },
 
         ],
-        collapsible: true
+        collapsed: true
       },
       {
         text: 'css',
@@ -36,15 +36,17 @@ export default defineConfig({
           { text: 'BFC相关', link: '/css/BFC' },
           { text: 'flex', link: '/css/flex' },
         ],
-        collapsible: false
+
+        collapsed: true
       },
       {
         text: 'vue',
         items: [
           { text: 'vue中为什么data()是一个函数？', link: '/vue/vue中为什么data()是一个函数' },
           { text: 'vue中的生命周期', link: '/vue/vue生命周期' },
+          { text: 'vue中父子组件渲染顺序', link: '/vue/vue中父子组件渲染顺序' }
         ],
-        collapsible: false
+        collapsed: true
       },
       {
         text: 'git',
@@ -52,7 +54,7 @@ export default defineConfig({
           { text: 'git操作', link: '/git/git操作' },
 
         ],
-        collapsible: false
+        collapsed: true
       },
       {
         text: 'other',
@@ -60,7 +62,7 @@ export default defineConfig({
           { text: '浏览器中输入url后发生了什么', link: '/other/浏览器中输入url后发生了什么' },
 
         ],
-        collapsible: false
+        collapsed: true
       }
 
     ],

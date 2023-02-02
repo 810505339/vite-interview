@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  vitepress: 1.0.0-alpha.38
+  vitepress: 1.0.0-alpha.45
 
 dependencies:
-  vitepress: 1.0.0-alpha.38
+  vitepress: 1.0.0-alpha.45
 
 packages:
 
@@ -128,8 +128,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: false
 
-  /@babel/parser/7.20.7:
-    resolution: {integrity: sha512-T3Z9oHybU+0vZlY9CiDSJQTD5ZapcW18ZctFMi0MOAl/4BjFF4ul7NVSARLdbGO5vDqy9eQiGTV0LtKfvCYvcg==}
+  /@babel/parser/7.20.13:
+    resolution: {integrity: sha512-gFDLKMfpiXCsjt4za2JA9oTMn70CeseCehb11kRZgvd7+F67Hih3OHOK24cRrWECJ/ljfPGac6ygXAs/C8kIvw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
@@ -399,7 +399,7 @@ packages:
   /@vue/compiler-core/3.2.45:
     resolution: {integrity: sha512-rcMj7H+PYe5wBV3iYeUgbCglC+pbpN8hBLTJvRiK2eKQiWqu+fG9F+8sW99JdL4LQi7Re178UOxn09puSXvn4A==}
     dependencies:
-      '@babel/parser': 7.20.7
+      '@babel/parser': 7.20.13
       '@vue/shared': 3.2.45
       estree-walker: 2.0.2
       source-map: 0.6.1
@@ -415,7 +415,7 @@ packages:
   /@vue/compiler-sfc/3.2.45:
     resolution: {integrity: sha512-1jXDuWah1ggsnSAOGsec8cFjT/K6TMZ0sPL3o3d84Ft2AYZi2jWJgRMjw4iaK0rBfA89L5gw427H4n1RZQBu6Q==}
     dependencies:
-      '@babel/parser': 7.20.7
+      '@babel/parser': 7.20.13
       '@vue/compiler-core': 3.2.45
       '@vue/compiler-dom': 3.2.45
       '@vue/compiler-ssr': 3.2.45
@@ -434,14 +434,14 @@ packages:
       '@vue/shared': 3.2.45
     dev: false
 
-  /@vue/devtools-api/6.4.5:
-    resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
+  /@vue/devtools-api/6.5.0:
+    resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
     dev: false
 
   /@vue/reactivity-transform/3.2.45:
     resolution: {integrity: sha512-BHVmzYAvM7vcU5WmuYqXpwaBHjsS8T63jlKGWVtHxAHIoMIlmaMyurUSEs1Zcg46M4AYT5MtB1U274/2aNzjJQ==}
     dependencies:
-      '@babel/parser': 7.20.7
+      '@babel/parser': 7.20.13
       '@vue/compiler-core': 3.2.45
       '@vue/shared': 3.2.45
       estree-walker: 2.0.2
@@ -483,24 +483,24 @@ packages:
     resolution: {integrity: sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==}
     dev: false
 
-  /@vueuse/core/9.11.0_vue@3.2.45:
-    resolution: {integrity: sha512-7yZJ8LNOssA8ZmeSjd4F+wbFBA4csiP4TiaXgruqg1H4PAtzSkv93PPwFLvQkSnfo3Bar+e+6QoRvWjhz7l2Xg==}
+  /@vueuse/core/9.12.0_vue@3.2.45:
+    resolution: {integrity: sha512-h/Di8Bvf6xRcvS/PvUVheiMYYz3U0tH3X25YxONSaAUBa841ayMwxkuzx/DGUMCW/wHWzD8tRy2zYmOC36r4sg==}
     dependencies:
       '@types/web-bluetooth': 0.0.16
-      '@vueuse/metadata': 9.11.0
-      '@vueuse/shared': 9.11.0_vue@3.2.45
+      '@vueuse/metadata': 9.12.0
+      '@vueuse/shared': 9.12.0_vue@3.2.45
       vue-demi: 0.13.11_vue@3.2.45
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: false
 
-  /@vueuse/metadata/9.11.0:
-    resolution: {integrity: sha512-HhtG2SWkcfZBLbamHdvLn7jKOCFpw/ifXjVTd5ilFkj98WVUk/3UTQ03wF1XIkuhSO4+b45hD2lfG9/GdKCF7w==}
+  /@vueuse/metadata/9.12.0:
+    resolution: {integrity: sha512-9oJ9MM9lFLlmvxXUqsR1wLt1uF7EVbP5iYaHJYqk+G2PbMjY6EXvZeTjbdO89HgoF5cI6z49o2zT/jD9SVoNpQ==}
     dev: false
 
-  /@vueuse/shared/9.11.0_vue@3.2.45:
-    resolution: {integrity: sha512-8lO7wD5abYxupKy2KynH1pSgP715ky6iCrWYb8aX2AuAVi9uHXj7qE1dw6BnmArSaLHci4x9iuzWPCpAzUkC/A==}
+  /@vueuse/shared/9.12.0_vue@3.2.45:
+    resolution: {integrity: sha512-TWuJLACQ0BVithVTRbex4Wf1a1VaRuSpVeyEd4vMUWl54PzlE0ciFUshKCXnlLuD0lxIaLK4Ypj3NXYzZh4+SQ==}
     dependencies:
       vue-demi: 0.13.11_vue@3.2.45
     transitivePeerDependencies:
@@ -525,6 +525,10 @@ packages:
       '@algolia/requester-common': 4.14.3
       '@algolia/requester-node-http': 4.14.3
       '@algolia/transporter': 4.14.3
+    dev: false
+
+  /ansi-sequence-parser/1.1.0:
+    resolution: {integrity: sha512-lEm8mt52to2fT8GhciPCGeCXACSz2UwIN4X2e2LJSnZ5uAbn2/dsYdOmUXq0AtWS5cpAupysIneExOgH0Vd2TQ==}
     dev: false
 
   /body-scroll-lock/4.0.0-beta.0:
@@ -640,17 +644,18 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: false
 
-  /rollup/3.10.0:
-    resolution: {integrity: sha512-JmRYz44NjC1MjVF2VKxc0M1a97vn+cDxeqWmnwyAF4FvpjK8YFdHpaqvQB+3IxCvX05vJxKZkoMDU8TShhmJVA==}
+  /rollup/3.12.1:
+    resolution: {integrity: sha512-t9elERrz2i4UU9z7AwISj3CQcXP39cWxgRWLdf4Tm6aKm1eYrqHIgjzXBgb67GNY1sZckTFFi0oMozh3/S++Ig==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
 
-  /shiki/0.12.1:
-    resolution: {integrity: sha512-aieaV1m349rZINEBkjxh2QbBvFFQOlgqYTNtCal82hHj4dDZ76oMlQIX+C7ryerBTDiga3e5NfH6smjdJ02BbQ==}
+  /shiki/0.14.0:
+    resolution: {integrity: sha512-fb9Fg1Yx/ElVJcTqPQIEOSfn7mSZlrT1W3CkymY08lL2Jsi+t7jPcZzKO1lCsQwlSDuyNhHvolnyA2OI4EgJNg==}
     dependencies:
+      ansi-sequence-parser: 1.1.0
       jsonc-parser: 3.2.0
       vscode-oniguruma: 1.7.0
       vscode-textmate: 8.0.0
@@ -709,22 +714,22 @@ packages:
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
-      rollup: 3.10.0
+      rollup: 3.12.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
 
-  /vitepress/1.0.0-alpha.38:
-    resolution: {integrity: sha512-p3Kb2KM2dw6gnnnKFeBH01seqXWB6fY6uE+RY9sH8dBY7asP4OulB7cmhnVDVTX94gaPnKFbVsbc3KPe3l2Slw==}
+  /vitepress/1.0.0-alpha.45:
+    resolution: {integrity: sha512-8AVWdymQqBUPmXmAbpapDDg18iDmkNJ47l5eOklBlAjj3n8P3zDAsBhOWSQ6+Nvm6+/GaZATyAvsrg47JD5Idw==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.3.2
       '@docsearch/js': 3.3.2
       '@vitejs/plugin-vue': 4.0.0_vite@4.0.4+vue@3.2.45
-      '@vue/devtools-api': 6.4.5
-      '@vueuse/core': 9.11.0_vue@3.2.45
+      '@vue/devtools-api': 6.5.0
+      '@vueuse/core': 9.12.0_vue@3.2.45
       body-scroll-lock: 4.0.0-beta.0
-      shiki: 0.12.1
+      shiki: 0.14.0
       vite: 4.0.4
       vue: 3.2.45
     transitivePeerDependencies:

@@ -11,35 +11,38 @@ TCP是一个端到端的可靠的面向连接的协议，所以HTTP基于传输�
 
 
 ## 发送HTTP请求
-请求方法：
 
-GET:获取资源
-POST:传输实体主体
-HEAD:获取报文首部
-PUT:传输文件
-DELETE:删除文件
-OPTIONS:询问支持的方法
-TRACE:追踪路径
+| 请求方法 |    对应解释    |
+| -------- | :------------: |
+| GET      |    获取资源    |
+| POST     |  传输实体主体  |
+| HEAD     |  获取报文首部  |
+| PUT      |    传输文件    |
+| DELETE   |    删除文件    |
+| OPTIONS  | 询问支持的方法 |
+| TRACE    |    追踪路径    |
+
+
 ## 接受响应结果
 状态码：
 
-1**：信息性状态码
-2**：成功状态码
-200：OK 请求正常处理
-204：No Content请求处理成功，但没有资源可返回
-206：Partial Content对资源的某一部分的请求
-3**：重定向状态码
-301：Moved Permanently 永久重定向
-302：Found 临时性重定向
-304：Not Modified 缓存中读取
-4**：客户端错误状态码
-400：Bad Request 请求报文中存在语法错误
-401：Unauthorized需要有通过Http认证的认证信息
-403：Forbidden访问被拒绝
-404：Not Found无法找到请求资源
-5**：服务器错误状态码
-500：Internal Server Error 服务器端在执行时发生错误
-503：Service Unavailable 服务器处于超负载或者正在进行停机维护
+* 1**：信息性状态码
+* 2**：成功状态码
+* 200：OK 请求正常处理
+* 204：No Content请求处理成功，但没有资源可返回
+* 206：Partial Content对资源的某一部分的请求
+* 3**：重定向状态码
+* 301：Moved Permanently 永久重定向
+* 302：Found 临时性重定向
+* 304：Not Modified 缓存中读取
+* 4**：客户端错误状态码
+* 400：Bad Request 请求报文中存在语法错误
+* 401：Unauthorized需要有通过Http认证的认证信息
+* 403：Forbidden访问被拒绝
+* 404：Not Found无法找到请求资源
+* 5**：服务器错误状态码
+* 500：Internal Server Error 服务器端在执行时发生错误
+* 503：Service Unavailable 服务器处于超负载或者正在进行停机维护
 
 
 ## 浏览器解析html
