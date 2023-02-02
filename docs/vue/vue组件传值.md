@@ -72,7 +72,7 @@ defineExpose({
   <Child  ref="childDom" />
 </template>
 <script setup lang="ts">
-  const childDom=ref<HtmlElement||null>(null)
+  const childDom=ref<HtmlElement|null>(null)
   function getName(){
        console.log(childDom.value.name) //我是子组件
   }
