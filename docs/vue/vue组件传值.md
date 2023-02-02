@@ -48,7 +48,7 @@ emits('change','Child')
 function change(name){
   console.log(name) //Child
 }
-const emits=defineEmits(['change'])
+
 </script>
 ```
 
@@ -94,8 +94,7 @@ defineExpose({
 子组件:
 ```vue
 <template>
-  <Child1 />
-  <Child2 />
+ 
 </template>
 <script setup lang="ts">
     const message = inject('message')  //hello! 
