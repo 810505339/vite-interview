@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  
   themeConfig: {
     siteTitle: '面试指南',
     logo: '/dogs.png',
@@ -69,5 +70,8 @@ export default defineConfig({
 
     ],
   },
+  head:[
+    ['link', { rel: 'icon', type: 'image/png', href: '/dogs.png' }],
+  ],
   description: 'A VitePress site'
 })
