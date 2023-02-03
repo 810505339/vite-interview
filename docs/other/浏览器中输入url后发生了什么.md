@@ -1,5 +1,5 @@
 # 浏览器中输入url后发生了什么
-![foo](/url.png)
+![foo](/url.png){data-zoomable}
 ## DNS域名解析
 * 在浏览器DNS缓存中搜索
 * 在操作系统DNS缓存中搜索

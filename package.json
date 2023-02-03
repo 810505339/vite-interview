@@ -13,6 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "medium-zoom": "^1.0.8",
     "vitepress": "1.0.0-alpha.45"
+  },
+  "devDependencies": {
+    "vue": "^3.2.47"
   }
 }
