@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  
+
   themeConfig: {
     siteTitle: '面试指南',
     logo: '/dogs.png',
@@ -47,7 +47,8 @@ export default defineConfig({
           { text: 'vue中的生命周期', link: '/vue/vue生命周期' },
           { text: 'vue中父子组件渲染顺序', link: '/vue/vue中父子组件渲染顺序' },
           { text: 'vue组件传值', link: '/vue/vue组件传值' },
-          { text: '自定义指令', link: '/vue/自定义指令' }
+          { text: '自定义指令', link: '/vue/自定义指令' },
+          { text: 'vue中插件的使用', link: '/vue/vue中插件的使用' },
         ],
         collapsed: true
       },
@@ -72,7 +73,7 @@ export default defineConfig({
 
     ],
   },
-  head:[
+  head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/dogs.png' }],
   ],
   description: 'A VitePress site'
