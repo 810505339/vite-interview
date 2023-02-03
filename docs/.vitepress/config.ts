@@ -46,7 +46,8 @@ export default defineConfig({
           { text: 'vue中为什么data()是一个函数？', link: '/vue/vue中为什么data()是一个函数' },
           { text: 'vue中的生命周期', link: '/vue/vue生命周期' },
           { text: 'vue中父子组件渲染顺序', link: '/vue/vue中父子组件渲染顺序' },
-          { text: 'vue组件传值', link: '/vue/vue组件传值' }
+          { text: 'vue组件传值', link: '/vue/vue组件传值' },
+          { text: '自定义指令', link: '/vue/自定义指令' }
         ],
         collapsed: true
       },
@@ -63,6 +64,7 @@ export default defineConfig({
         items: [
           { text: '浏览器中输入url后发生了什么', link: '/other/浏览器中输入url后发生了什么' },
           { text: '性能优化', link: '/other/性能优化' },
+          { text: '强制缓存和协商缓存', link: '/other/强制缓存和协商缓存' },
 
         ],
         collapsed: true
