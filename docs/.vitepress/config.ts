@@ -49,6 +49,7 @@ export default defineConfig({
           { text: 'vue组件传值', link: '/vue/vue组件传值' },
           { text: '自定义指令', link: '/vue/自定义指令' },
           { text: 'vue中插件的使用', link: '/vue/vue中插件的使用' },
+          { text: 'vue中响应式原理', link: '/vue/vue响应式原理' }
         ],
         collapsed: true
       },
