@@ -3,6 +3,7 @@ import './style/var.css'
 import { onMounted, watch, nextTick } from 'vue';
 import mediumZoom from 'medium-zoom'
 import { useRoute } from 'vitepress';
+import 'uno.css'
 export default {
   ...DefaultTheme,
   setup() { //全局md文件注入
