@@ -36,6 +36,7 @@ export default defineConfig({
         items: [
           { text: 'BFC相关', link: '/css/BFC' },
           { text: 'flex', link: '/css/flex' },
+          { text: 'unocss', link: '/css/unocss' },
         ],
 
         collapsed: true
