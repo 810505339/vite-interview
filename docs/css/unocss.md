@@ -46,7 +46,9 @@ export default defineConfig({
   transformers: [
     transformerDirectives(), //UnoCSS 转换器 、 和指令@apply @screen theme()
     transformerVariantGroup(),//变体
-    //<div class="hover:(bg-gray-400 font-medium) font-(light mono)"/>  
+    
+    //<div class="hover:(bg-gray-400 font-medium) font-(light mono)"/>    
+    
     // <div class="hover:bg-gray-400 hover:font-medium font-light font-mono"/>
   ],
   safelist: [
