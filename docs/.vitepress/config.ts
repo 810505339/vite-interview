@@ -55,6 +55,13 @@ export default defineConfig({
         collapsed: true
       },
       {
+        text: 'react',
+        items: [
+          { text: 'react-redux', link: '/react/redux' },
+        ],
+        collapsed: true
+      },
+      {
         text: 'git',
         items: [
           { text: 'git操作', link: '/git/git操作' },
