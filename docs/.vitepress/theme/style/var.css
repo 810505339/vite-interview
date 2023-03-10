@@ -19,3 +19,8 @@
 .medium-zoom-image {
   z-index: 21;
 }
+
+input{
+  border: 1px solid ;
+  height:30px;
+}
