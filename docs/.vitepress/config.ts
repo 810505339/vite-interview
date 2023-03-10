@@ -50,7 +50,8 @@ export default defineConfig({
           { text: 'vue组件传值', link: '/vue/vue组件传值' },
           { text: '自定义指令', link: '/vue/自定义指令' },
           { text: 'vue中插件的使用', link: '/vue/vue中插件的使用' },
-          { text: 'vue中响应式原理', link: '/vue/vue响应式原理' }
+          { text: 'vue中响应式原理', link: '/vue/vue响应式原理' },
+          { text: 'vue2中为什么根节点只能有一个', link: '/vue/vue2中为什么根节点只能有一个' }
         ],
         collapsed: true
       },
