@@ -80,6 +80,13 @@ export default defineConfig({
 
         ],
         collapsed: true
+      },
+      {
+        text: '面试总结',
+        items: [
+          { text: '面试', link: '/面试/总结' },
+        ],
+        collapsed: true
       }
 
     ],
