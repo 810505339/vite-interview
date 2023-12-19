@@ -11,7 +11,7 @@ export default {
   ...DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      'home-features-after': () => h(HomeSponsors),
+
       'home-hero-image':()=>h(HomeImage)
     })
   },
