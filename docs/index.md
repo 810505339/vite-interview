@@ -4,16 +4,16 @@ layout: home
 hero:
   name: 面试指南
   text: 整理一些常用技巧以及面试内容
-  tagline: Lorem ipsum...
+
   image:
     src: /dogs.png
     alt: alt
   actions:
     - theme: brand
-      text: Get Started
+      text: 开始
       link: /js/var-let-const
     - theme: alt
-      text: View on GitHub
+      text: 查看github
       link: https://github.com/810505339/vite-interview
 features:
   - title: "Vite: The DX that can't be beat"
