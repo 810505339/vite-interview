@@ -5,9 +5,7 @@ hero:
   name: 面试指南
   text: 整理一些常用技巧以及面试内容
 
-  image:
-    src: /dogs.png
-    alt: alt
+ 
   actions:
     - theme: brand
       text: 开始
@@ -25,5 +23,6 @@ features:
   - title: Fully static yet still dynamic
     details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
 ---
+
 
 
