@@ -25,6 +25,16 @@ keep-alive是一种优化手段，可以让浏览器在一个页面中，保存�
   <component :is="view" />
 </KeepAlive>
 
+
+  <router-view v-slot="{ Component }">
+    <transition>
+      <keep-alive :include="includeList">
+        <component :is="Component" />
+      </keep-alive>
+    </transition>
+  </router-view>
+
+
 <script setup lang="ts">
 import {activated,deactivated} from 'vue'
 activated(()=>{

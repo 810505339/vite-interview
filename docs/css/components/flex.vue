@@ -3,8 +3,7 @@
 </script>
 
 <template>
-  <div w-50px w-50px></div>
+  <div w-50px h-50px></div>
 </template>
 <style scoped>
-
 </style>
