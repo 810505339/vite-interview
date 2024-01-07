@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export default defineConfig({
 
@@ -53,7 +53,8 @@ export default defineConfig({
           { text: 'vue中响应式原理', link: '/vue/vue响应式原理' },
           { text: 'vue2中为什么根节点只能有一个', link: '/vue/vue2中为什么根节点只能有一个' },
           { text: 'computed vs watch', link: '/vue/computed vs watch' },
-          { text: 'keep-alive详解', link: '/vue/keep-alive' }
+          { text: 'keep-alive详解', link: '/vue/keep-alive' },
+          { text: '实现一个tabs', link: '/vue/如何实现一个tabs.md' },
         ],
         collapsed: true
       },
@@ -91,9 +92,43 @@ export default defineConfig({
       }
 
     ],
+    nav: nav(),
   },
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/dogs.png' }],
+
   ],
+
   description: 'A VitePress site'
 })
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: '前端',
+      items: [
+        {
+          text: 'HTML CSS JS',
+          link: '/js/js的数据类型'
+        },
+        {
+          text: 'vue',
+          link: '/js/js的数据类型'
+        },
+        {
+          text: 'react',
+          link: '/js/js的数据类型'
+        }
+      ]
+    },
+    {
+      text: 'react Native',
+      link: '/js/js的数据类型',
+
+    },
+    {
+      text: 'Flutter',
+      link: '/js/js的数据类型',
+
+    }
+  ]
+}
