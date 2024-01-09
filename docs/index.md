@@ -1,13 +1,13 @@
 ---
 layout: home
 
-title: 面试以及教程
-titleTemplate: 面试以及教程
+title: 指南以及教程
+titleTemplate: 指南以及教程
 
 hero:
-  name: 面试
+  name: 指南
   text: 以及教程
-  tagline: 一些关于面试跟分享的教程
+  tagline: 一些关于前端开发的指南的分享
   actions:
     - theme: brand
       text: 开始

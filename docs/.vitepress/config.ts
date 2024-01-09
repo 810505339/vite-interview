@@ -3,7 +3,7 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 export default defineConfig({
 
   themeConfig: {
-    siteTitle: '面试指南',
+    siteTitle: '指南',
     logo: '/dogs.png',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/810505339/vite-interview' }
@@ -114,11 +114,11 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
           text: 'vue',
-          link: '/js/js的数据类型'
+          link: '/vue/vue中为什么data()是一个函数'
         },
         {
           text: 'react',
-          link: '/js/js的数据类型'
+          link: '/react/redux'
         }
       ]
     },
@@ -172,15 +172,34 @@ function sidebar(): DefaultTheme.Sidebar {
         collapsed: true
       },
     ],
-    '/config/': [
+    '/vue/': [
       {
-        text: 'Config',
+        text: 'vue',
         items: [
-          { text: 'Index', link: '/config/' },
-          { text: 'Three', link: '/config/three' },
-          { text: 'Four', link: '/config/four' }
-        ]
+          { text: 'vue中为什么data()是一个函数？', link: '/vue/vue中为什么data()是一个函数' },
+          { text: 'vue中的生命周期', link: '/vue/vue生命周期' },
+          { text: 'vue中父子组件渲染顺序', link: '/vue/vue中父子组件渲染顺序' },
+          { text: 'vue组件传值', link: '/vue/vue组件传值' },
+          { text: '自定义指令', link: '/vue/自定义指令' },
+          { text: 'vue中插件的使用', link: '/vue/vue中插件的使用' },
+          { text: 'vue中响应式原理', link: '/vue/vue响应式原理' },
+          { text: 'vue2中为什么根节点只能有一个', link: '/vue/vue2中为什么根节点只能有一个' },
+          { text: 'computed vs watch', link: '/vue/computed vs watch' },
+          { text: 'keep-alive详解', link: '/vue/keep-alive' },
+          { text: '实现一个tabs', link: '/vue/如何实现一个tabs.md' },
+          { text: 'useSlots跟useAttrs', link: '/vue/useSlots跟useAttrs.md' },
+        ],
+        collapsed: true
       }
+    ],
+    '/react/':[
+      {
+        text: 'react',
+        items: [
+          { text: 'react-redux', link: '/react/redux' },
+        ],
+        collapsed: true
+      },
     ]
   }
 }
