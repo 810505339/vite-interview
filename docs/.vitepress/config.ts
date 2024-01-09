@@ -122,17 +122,17 @@ function nav(): DefaultTheme.NavItem[] {
         }
       ]
     },
-    {
-      text: 'react Native',
-      link: '/js/js的数据类型',
-    },
-    {
-      text: 'Flutter',
-      link: '/js/js的数据类型',
-    },
+    // {
+    //   text: 'react Native',
+    //   link: '/js/js的数据类型',
+    // },
+    // {
+    //   text: 'Flutter',
+    //   link: '/js/js的数据类型',
+    // },
     {
       text: '其他',
-      link: '/js/js的数据类型',
+      link: '/other/浏览器中输入url后发生了什么',
     }
   ]
 }
@@ -192,7 +192,7 @@ function sidebar(): DefaultTheme.Sidebar {
         collapsed: true
       }
     ],
-    '/react/':[
+    '/react/': [
       {
         text: 'react',
         items: [
@@ -200,6 +200,19 @@ function sidebar(): DefaultTheme.Sidebar {
         ],
         collapsed: true
       },
-    ]
+    ],
+    '/other/': [
+      {
+        text: 'other',
+        items: [
+          { text: '浏览器中输入url后发生了什么', link: '/other/浏览器中输入url后发生了什么' },
+          { text: '性能优化', link: '/other/性能优化' },
+          { text: '强制缓存和协商缓存', link: '/other/强制缓存和协商缓存' },
+          { text: 'lottie-web', link: '/other/lottie-web.md' },
+        ],
+      }
+    ],
+
+
   }
 }
