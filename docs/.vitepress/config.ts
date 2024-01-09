@@ -125,12 +125,14 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: 'react Native',
       link: '/js/js的数据类型',
-
     },
     {
       text: 'Flutter',
       link: '/js/js的数据类型',
-
+    },
+    {
+      text: '其他',
+      link: '/js/js的数据类型',
     }
   ]
 }
