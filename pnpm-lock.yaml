@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@unocss/reset':
+    specifier: ^0.58.3
+    version: 0.58.3
   '@vueuse/core':
     specifier: ^10.7.0
     version: 10.7.1(vue@3.4.5)
@@ -1061,7 +1064,6 @@ packages:
 
   /@unocss/reset@0.58.3:
     resolution: {integrity: sha512-Q2KiRQlam2iYsTZgKdvnXEfUN4TA2oVpGIVD9Wa0ggs0XlYj5aOo0g0+4Tgqqn+YaviZQeJKnDs/JWE+ygHhZA==}
-    dev: true
 
   /@unocss/rule-utils@0.58.3:
     resolution: {integrity: sha512-0Px9gIW+VOKetZuYET19uamIRpk7A9c8sCzQuGlNvCLXKEWamqXz5asLtnvPzw6SwCXEQDgWXE9i+aeoXaM0Jg==}

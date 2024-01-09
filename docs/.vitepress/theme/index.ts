@@ -1,18 +1,19 @@
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
-import './style/var.css'
 import { onMounted, watch, nextTick } from 'vue';
 import mediumZoom from 'medium-zoom'
 import { useRoute } from 'vitepress';
-import 'uno.css'
 import HomeSponsors from './components/HomeSponsors.vue'
 import HomeImage from './components/HomeImage.vue';
+import '@unocss/reset/normalize.css'
+import 'uno.css'
+import './style/var.css'
 export default {
-  ...DefaultTheme,
+ 
   Layout() {
     return h(DefaultTheme.Layout, null, {
 
-      'home-hero-image':()=>h(HomeImage)
+      'home-hero-image': () => h(HomeImage)
     })
   },
   setup() { //全局md文件注入

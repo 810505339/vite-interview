@@ -1,6 +1,32 @@
-# unocss配置
+# unocss
+`unocss` 是基于 `Tailwind CSS` 开发的一款`原子化css`插件
 
-```ts
+## 安装
+
+```
+pnpm add -D unocss
+```
+
+## 配置
+
+`vscode`需要`unocss` 插件有代码提示 [插件地址](https://marketplace.visualstudio.com/items?itemName=antfu.unocss)
+::: code-group
+
+```ts [根目录/vite.config.ts]
+
+import UnoCSS from 'unocss/vite'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  plugins: [
+    UnoCSS(),
+  ],
+})
+
+```
+
+
+```ts [根目录/unocss.config.ts]
 import {
   defineConfig,
   presetAttributify,
@@ -56,6 +82,19 @@ export default defineConfig({
   ]  // 添加以下配置, safelist 是预生成,不管是否使用了unocss 都会打包 
 })
 
+```
+:::
 
+
+## 使用
+
+ <button px-4 py-1 border="~ solid indigo-500" text-white rounded-1 bg-indigo-500>按钮</button>
+```vue
+<temlate>
+  <button px-4 py-1 border="~ solid indigo-500" text-white rounded-1 bg-indigo-500>按钮</button>
+</temlate>
 
 ```
+## 链接
+
+[UnoCSS中文官网](https://alfred-skyblue.github.io/unocss-docs-cn/)
