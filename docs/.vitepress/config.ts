@@ -55,6 +55,7 @@ export default defineConfig({
           { text: 'computed vs watch', link: '/vue/computed vs watch' },
           { text: 'keep-alive详解', link: '/vue/keep-alive' },
           { text: '实现一个tabs', link: '/vue/如何实现一个tabs.md' },
+          { text: 'useSlots跟useAttrs', link: '/vue/useSlots跟useAttrs.md' },
         ],
         collapsed: true
       },
