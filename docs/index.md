@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /guide/getting-started
+      link: /first/js/js的数据类型
     - theme: alt
       text: GitHub
       link: https://github.com/810505339/vite-interview
