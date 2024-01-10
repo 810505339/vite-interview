@@ -210,6 +210,7 @@ function sidebar(): DefaultTheme.Sidebar {
           { text: '强制缓存和协商缓存', link: '/other/强制缓存和协商缓存' },
           { text: 'lottie-web', link: '/other/lottie-web.md' },
           { text: '常用网站分享', link: '/other/常用网站分享.md' },
+          { text: 'git操作', link: '/other/git操作' },
         ],
       }
     ],
