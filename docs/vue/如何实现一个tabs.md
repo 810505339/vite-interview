@@ -34,6 +34,8 @@
 
 首先在 `app.vue` 中引入 `Tabs` 跟 `TabsPanel` 组件
 然后编写 `Tabs` 组件和 `TabsPanel` 组件:
+
+
 ::: code-group
 ```vue [app.vue]
 <template>
@@ -210,7 +212,6 @@ export function useCounterStoreOrThrow() {
   return counterStore
 }
 
-
 ```
- ::: code-group
+::: 
 
