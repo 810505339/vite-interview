@@ -122,10 +122,20 @@ function nav(): DefaultTheme.NavItem[] {
         }
       ]
     },
-    // {
-    //   text: 'react Native',
-    //   link: '/js/js的数据类型',
-    // },
+    {
+      text: '打包工具',
+      items: [
+        {
+          text: 'vite',
+          link: ''
+        },
+        {
+          text: 'webpack',
+          link: ''
+        }
+      ]
+    },
+
     // {
     //   text: 'Flutter',
     //   link: '/js/js的数据类型',
@@ -208,9 +218,11 @@ function sidebar(): DefaultTheme.Sidebar {
           { text: '浏览器中输入url后发生了什么', link: '/other/浏览器中输入url后发生了什么' },
           { text: '性能优化', link: '/other/性能优化' },
           { text: '强制缓存和协商缓存', link: '/other/强制缓存和协商缓存' },
-          { text: 'lottie-web', link: '/other/lottie-web.md' },
-          { text: '常用网站分享', link: '/other/常用网站分享.md' },
+          { text: 'lottie-web', link: '/other/lottie-web' },
+          { text: '常用网站分享', link: '/other/常用网站分享' },
           { text: 'git操作', link: '/other/git操作' },
+          { text: 'tree-shaking', link: '/other/tree-shaking' },
+          { text: '在vue中开启浏览器自定义格式化', link: '/other/在vue中开启浏览器自定义格式化' },
         ],
       }
     ],

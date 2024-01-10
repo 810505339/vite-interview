@@ -45,4 +45,4 @@ const renderTest=slots.header
   props:{{name}}
 </template>
 ```
-::: code-group
+:::
