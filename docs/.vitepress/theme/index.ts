@@ -4,16 +4,16 @@ import { onMounted, watch, nextTick } from 'vue';
 import mediumZoom from 'medium-zoom'
 import { useRoute } from 'vitepress';
 import HomeSponsors from './components/HomeSponsors.vue'
+import HomeKinesisElement from './components/HomeKinesisElement.vue'
 import HomeImage from './components/HomeImage.vue';
 import '@unocss/reset/normalize.css'
 import 'uno.css'
 import './style/var.css'
+import Layout from './Layout.vue'
 export default {
- 
   Layout() {
-    return h(DefaultTheme.Layout, null, {
-
-      'home-hero-image': () => h(HomeImage)
+    return h(Layout, null, {
+      'home-hero-image': () => h(HomeImage),
     })
   },
   setup() { //全局md文件注入

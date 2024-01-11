@@ -4,12 +4,7 @@ import { VPHomeSponsors } from 'vitepress/theme'
 </script>
 
 <template>
-  <VPHomeSponsors
-    v-if="true"
-   
-    :data="[]"
-  />
- 
+  <VPHomeSponsors :data="[]" />
 </template>
 
 <style scoped>

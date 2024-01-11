@@ -20,6 +20,9 @@ dependencies:
   vitepress:
     specifier: 1.0.0-rc.35
     version: 1.0.0-rc.35(@algolia/client-search@4.22.0)(postcss@8.4.33)(search-insights@2.13.0)
+  vue-kinesis:
+    specifier: ^2.0.5
+    version: 2.0.5(vue@3.4.5)
 
 devDependencies:
   unocss:
@@ -2141,6 +2144,15 @@ packages:
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
+    dependencies:
+      vue: 3.4.5
+    dev: false
+
+  /vue-kinesis@2.0.5(vue@3.4.5):
+    resolution: {integrity: sha512-uO2lG9A/L4I9KvyJuUzAkAWqd37In/kWxQ6rZ3/heJZ8+7rHAbBO5Knz6xG+cpO+9Q4cYurxXsPfWM6e7X9E3Q==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      vue: ^3.0.0
     dependencies:
       vue: 3.4.5
     dev: false
