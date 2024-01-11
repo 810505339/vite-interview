@@ -4,6 +4,12 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [UnoCSS()],
+
+  optimizeDeps: {
+    exclude: [
+      'date-fns'
+    ]
+  },
   resolve: {
     alias: {
       '@': resolve(__dirname, 'docs')
