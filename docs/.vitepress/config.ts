@@ -1,5 +1,7 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 
+
+
 export default defineConfig({
 
   themeConfig: {
@@ -169,6 +171,7 @@ function sidebar(): DefaultTheme.Sidebar {
           { text: '判断js数据类型', link: '/first/js/判断js数据类型' },
           { text: 'new发生了什么', link: '/first/js/new发生了什么' },
           { text: '原型链和原型', link: '/first/js/原型链和原型' },
+          { text: '事件循环机制', link: '/first/js/事件循环机制' },
         ],
       },
       {
