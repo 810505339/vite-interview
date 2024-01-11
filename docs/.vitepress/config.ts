@@ -219,7 +219,7 @@ function sidebar(): DefaultTheme.Sidebar {
           { text: '性能优化', link: '/other/性能优化' },
           { text: '强制缓存和协商缓存', link: '/other/强制缓存和协商缓存' },
           { text: 'lottie-web', link: '/other/lottie-web' },
-          { text: '常用网站分享', link: '/other/常用网站分享' },
+          { text: '常用网站分享', link: '/other/常用网站' },
           { text: 'git操作', link: '/other/git操作' },
           { text: 'tree-shaking', link: '/other/tree-shaking' },
           { text: '在vue中开启浏览器自定义格式化', link: '/other/在vue中开启浏览器自定义格式化' },
