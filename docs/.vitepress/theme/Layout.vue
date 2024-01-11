@@ -3,6 +3,7 @@ import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
 import HomeImage from './components/HomeImage.vue';
+import HomeKinesisElement from './components/HomeKinesisElement.vue';
 import { KinesisContainer, KinesisElement } from 'vue-kinesis'
 const { isDark } = useData()
 
@@ -46,6 +47,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       <HomeImage></HomeImage>
     </template>
   </DefaultTheme.Layout>
+  
 </template>
 
 <style>
