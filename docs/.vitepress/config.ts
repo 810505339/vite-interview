@@ -172,6 +172,7 @@ function sidebar(): DefaultTheme.Sidebar {
           { text: 'new发生了什么', link: '/first/js/new发生了什么' },
           { text: '原型链和原型', link: '/first/js/原型链和原型' },
           { text: '事件循环机制', link: '/first/js/事件循环机制' },
+          { text: 'JS中的事件冒泡、事件捕获、事件委托', link: '/first/js/JS事件冒泡' },
         ],
       },
       {
