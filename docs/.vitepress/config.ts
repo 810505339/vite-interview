@@ -231,6 +231,16 @@ function sidebar(): DefaultTheme.Sidebar {
       }
     ],
 
+    '/vite/':[
+      {
+        text: 'vite',
+        items: [
+          { text: 'vite打包500kb限制', link: '/vite/vite打包500kb限制' },
+
+        ],
+      }
+    ]
+
 
   }
 }
