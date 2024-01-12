@@ -129,11 +129,11 @@ function nav(): DefaultTheme.NavItem[] {
       items: [
         {
           text: 'vite',
-          link: ''
+          link: '/pack-tool/vite/vite打包500kb限制'
         },
         {
           text: 'webpack',
-          link: ''
+          link: '/pack-tool/webpack/webpack.config'
         }
       ]
     },
@@ -231,16 +231,22 @@ function sidebar(): DefaultTheme.Sidebar {
       }
     ],
 
-    '/vite/':[
+    '/pack-tool/': [
       {
         text: 'vite',
         items: [
-          { text: 'vite打包500kb限制', link: '/vite/vite打包500kb限制' },
-
+          { text: 'vite打包500kb限制', link: '/pack-tool/vite/vite打包500kb限制' },
         ],
+        
+        collapsed: false
+      },
+      {
+        text: 'webpack',
+        items: [
+          { text: 'webpack.config', link: '/pack-tool/webpack/webpack.config' },
+        ],
+        collapsed: false
       }
     ]
-
-
   }
 }
