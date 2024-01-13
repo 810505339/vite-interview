@@ -227,6 +227,7 @@ function sidebar(): DefaultTheme.Sidebar {
           { text: 'git操作', link: '/other/git操作' },
           { text: 'tree-shaking', link: '/other/tree-shaking' },
           { text: '在vue中开启浏览器自定义格式化', link: '/other/在vue中开启浏览器自定义格式化' },
+          { text: 'babel原理', link: '/other/babel原理' },
         ],
       }
     ],
@@ -244,6 +245,7 @@ function sidebar(): DefaultTheme.Sidebar {
         text: 'webpack',
         items: [
           { text: 'webpack.config', link: '/pack-tool/webpack/webpack.config' },
+          { text: 'webpack基础.', link: '/pack-tool/webpack/webpack基础' },
         ],
         collapsed: false
       }
