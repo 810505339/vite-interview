@@ -245,7 +245,7 @@ function sidebar(): DefaultTheme.Sidebar {
         text: 'webpack',
         items: [
           { text: 'webpack.config', link: '/pack-tool/webpack/webpack.config' },
-          { text: 'webpack基础.', link: '/pack-tool/webpack/webpack基础' },
+          { text: 'webpack基础', link: '/pack-tool/webpack/webpack基础' },
         ],
         collapsed: false
       }
