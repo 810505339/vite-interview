@@ -41,11 +41,13 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
 <template>
   <DefaultTheme.Layout>
+    <template #nav-bar-content-before>
+      
+    </template>
     <template #home-hero-image>
-      <HomeImage/>
+      <HomeImage />
     </template>
   </DefaultTheme.Layout>
-  
 </template>
 
 <style>

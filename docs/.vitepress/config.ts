@@ -5,6 +5,9 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 export default defineConfig({
 
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     siteTitle: '指南',
     logo: '/dogs.png',
     socialLinks: [
@@ -238,7 +241,7 @@ function sidebar(): DefaultTheme.Sidebar {
         items: [
           { text: 'vite打包500kb限制', link: '/pack-tool/vite/vite打包500kb限制' },
         ],
-        
+
         collapsed: false
       },
       {
