@@ -7,7 +7,7 @@
 
 
 ## Babel编译流程
-<img  src="other/babel.jpg"/>
+<img  src="/other/babel.jpg"/>
 
 
 
