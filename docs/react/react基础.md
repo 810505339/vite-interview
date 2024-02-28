@@ -4,7 +4,7 @@
 组件类分为三种类型:
 1. 继承基类的组件:`Component` `PureComponent`
 2. 高阶组件:`memo` `forwardRef`
-3. 内置的组件:`Fragment` `StrictMode` `Profiler`(这个是`React Developer Tools`内置组件)
+3. 内置的组件:`Fragment` `StrictMode` `Suspense` `Profiler`(这个是`React Developer Tools`内置组件)
 <img src="/react/react组件类.png" rounded  data-zoomable p-10/>
 
 ### Component
@@ -66,7 +66,7 @@ function App() {
 }
 
 const Counter: FC<{ count: number }> = (props) => {
-  console.log('渲染couter');
+  console.log('渲染counter');
   const { count } = props
   return <>
     {count}
@@ -146,7 +146,112 @@ export default App
 
 ```
 
+### forwardRef
+`forwardRef` 允许组件使用 `ref` 将 `DOM` 节点暴露给父组件
 
+```tsx
+import { forwardRef, useRef } from "react"
+
+function App() {
+  const videoRef = useRef<HTMLVideoElement | null>(null)
+  const videoProps = {
+    src: 'https://www.w3schools.com/html/mov_bbb.mp4',
+    type: 'video/mp4',
+    width: 500
+  }
+
+  function handlePlay() {
+    videoRef.current?.play()
+  }
+
+  function handlePause() {
+    videoRef.current?.pause()
+  }
+  return <>
+    <div>
+      <button onClick={handlePlay}>play</button>
+      <button onClick={handlePause}>pause</button>
+    </div>
+    <MyVideoPlayer ref={videoRef} {...videoProps} />
+  </>
+}
+type IProps = {
+  src: string,
+  type: string,
+  width: number
+}
+
+const MyVideoPlayer = forwardRef<HTMLVideoElement, IProps>((props: IProps, ref) => {
+  const { src, type, width } = props
+  /* 向外面暴露属性 
+  useImperativeHandle(ref, {
+    
+  }, [])
+  */
+  return <video ref={ref} width={width} controls={true}>
+    <source
+      src={src}
+      type={type}
+    />
+  </video>
+
+})
+```
+
+
+<iframe src="https://codesandbox.io/embed/xxp8t9?view=preview&module=%2Fsrc%2FApp.tsx"
+     style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="jovial-smoke"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+### Fragment (<>...</>)
+`<Fragment>` 通常使用 `<>...</>` 代替，它们都允许你在不添加额外节点的情况下将子元素组合。
+```tsx
+<>
+  <OneChild />
+  <AnotherChild />
+</>
+```
+:::warning 
+只有需要`key`的时候`Fragment`才需要完整写不然就是`<>...</>`代替
+:::
+例如:
+```tsx
+function DateRangePicker({list}){
+  return (list.map(({start,end},index)=>{
+    return <Fragment key={index}>
+       From
+      <DatePicker date={start} />
+      to
+      <DatePicker date={end} />
+    </Fragment>
+  }))
+}
+```
+
+### StrictMode
+`StrictMode` 帮助你在开发过程中尽早地发现组件中的常见错误。
+```tsx
+<StrictMode>
+  <App />
+</StrictMode>
+```
+`StrictMode`是`严格模式`,在开发环境中会调用一些函数两次（仅限应为纯函数的函数）。这些函数包括:
+1. 组件函数体（仅限顶层逻辑，不包括事件处理程序内的代码）
+2. 传递给 `useState` `set 函数` 函数、`useMemo` 或 ` useReducer` 的函数
+3. 部分类组件的方法
+
+### Suspense
+`Suspense`允许在子组件完成加载前展示后备方案。
+
+```tsx
+<Suspense fallback={<Loading />}>
+  <SomeComponent />
+</Suspense>
+```
+//todo
 
 ## 参考链接
-[react官方文档](https://zh-hans.react.dev/reference/react/memo#minimizing-props-changes)
+[react官方文档](https://react.docschina.org/reference/react)
