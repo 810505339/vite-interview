@@ -19,18 +19,21 @@ dependencies:
     version: 1.1.0
   vitepress:
     specifier: 1.0.0-rc.35
-    version: 1.0.0-rc.35(@algolia/client-search@4.22.0)(postcss@8.4.33)(search-insights@2.13.0)
+    version: 1.0.0-rc.35(@algolia/client-search@4.22.0)(@types/node@20.11.21)(postcss@8.4.33)(search-insights@2.13.0)
   vue-kinesis:
     specifier: ^2.0.5
     version: 2.0.5(vue@3.4.5)
 
 devDependencies:
+  '@types/node':
+    specifier: ^20.11.21
+    version: 20.11.21
   unocss:
     specifier: ^0.58.0
     version: 0.58.3(postcss@8.4.33)(vite@5.0.11)
   vite:
     specifier: ^5.0.10
-    version: 5.0.11
+    version: 5.0.11(@types/node@20.11.21)
   vue:
     specifier: ^3.3.12
     version: 3.4.5
@@ -920,6 +923,11 @@ packages:
     resolution: {integrity: sha512-6L6VymKTzYSrEf4Nev4Xa1LCHKrlTlYCBMTlQKFuddo1CvQcE52I0mwfOJayueUC7MJuXOeHTcIU683lzd0cUA==}
     dev: false
 
+  /@types/node@20.11.21:
+    resolution: {integrity: sha512-/ySDLGscFPNasfqStUuWWPfL78jompfIoVzLJPVVAHBh6rpG68+pI2Gk+fNLeI8/f1yPYL4s46EleVIc20F1Ow==}
+    dependencies:
+      undici-types: 5.26.5
+
   /@types/web-bluetooth@0.0.20:
     resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
     dev: false
@@ -935,7 +943,7 @@ packages:
       '@unocss/core': 0.58.3
       '@unocss/reset': 0.58.3
       '@unocss/vite': 0.58.3(vite@5.0.11)
-      vite: 5.0.11
+      vite: 5.0.11(@types/node@20.11.21)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1132,7 +1140,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.3.2
       magic-string: 0.30.5
-      vite: 5.0.11
+      vite: 5.0.11(@types/node@20.11.21)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1144,7 +1152,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.0.11
+      vite: 5.0.11(@types/node@20.11.21)
       vue: 3.4.5
     dev: false
 
@@ -1993,6 +2001,9 @@ packages:
       mlly: 1.4.2
     dev: true
 
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+
   /unocss@0.58.3(postcss@8.4.33)(vite@5.0.11):
     resolution: {integrity: sha512-2rnvghfiIDRQ2cOrmN4P7J7xV2p3yBK+bPAt1aoUxCXcszkLczAnQzh9c7IZ+p70kSVstK45cJTYV6TMzOLF7Q==}
     engines: {node: '>=14'}
@@ -2025,7 +2036,7 @@ packages:
       '@unocss/transformer-directives': 0.58.3
       '@unocss/transformer-variant-group': 0.58.3
       '@unocss/vite': 0.58.3(vite@5.0.11)
-      vite: 5.0.11
+      vite: 5.0.11(@types/node@20.11.21)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -2043,7 +2054,7 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /vite@5.0.11:
+  /vite@5.0.11(@types/node@20.11.21):
     resolution: {integrity: sha512-XBMnDjZcNAw/G1gEiskiM1v6yzM4GE5aMGvhWTlHAYYhxb7S3/V1s3m2LDHa8Vh6yIWYYB0iJwsEaS523c4oYA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2071,13 +2082,14 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 20.11.21
       esbuild: 0.19.11
       postcss: 8.4.33
       rollup: 4.9.4
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitepress@1.0.0-rc.35(@algolia/client-search@4.22.0)(postcss@8.4.33)(search-insights@2.13.0):
+  /vitepress@1.0.0-rc.35(@algolia/client-search@4.22.0)(@types/node@20.11.21)(postcss@8.4.33)(search-insights@2.13.0):
     resolution: {integrity: sha512-+2VnFwtYIiKWWAnMjWg7ik0PfsUdrNoZIZKeu5dbJtrkzKO/mTvlA3owiT5VBKJsZAgI17B5UV37aYfUvGrN6g==}
     hasBin: true
     peerDependencies:
@@ -2103,7 +2115,7 @@ packages:
       shikiji: 0.9.17
       shikiji-core: 0.9.17
       shikiji-transformers: 0.9.17
-      vite: 5.0.11
+      vite: 5.0.11(@types/node@20.11.21)
       vue: 3.4.5
     transitivePeerDependencies:
       - '@algolia/client-search'

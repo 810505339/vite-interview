@@ -215,7 +215,9 @@ function sidebar(): DefaultTheme.Sidebar {
       {
         text: 'react',
         items: [
+          { text: 'react基础总结', link: '/react/react基础' },
           { text: 'react-redux', link: '/react/redux' },
+
         ],
         collapsed: true
       },

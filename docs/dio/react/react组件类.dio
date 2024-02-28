@@ -1,0 +1,127 @@
+<mxfile host="65bd71144e">
+    <diagram id="Rq3LrBxoXn9YYTcBLvhl" name="第 1 页">
+        <mxGraphModel dx="2080" dy="1660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="#211951" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="51" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="230" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="330" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="430" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="530" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="630" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="730" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="830" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="130" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="React组件类Api" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=18;gradientColor=none;fillColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="510" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Component" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="PureComponent" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="200" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="memo" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="forwardRef" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="lazy" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Suspense" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;labelBackgroundColor=default;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Fragment" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Profiler" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;div style=&quot;text-align: start;&quot;&gt;StrictMod&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="271" y="900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="330" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="130" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="230" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rounded=1;sketch=0;fontSize=18;gradientColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="430" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Component" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="PureComponent" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="200" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="memo" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="forwardRef" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="lazy" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Suspense" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;labelBackgroundColor=default;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="Fragment" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="Component" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="PureComponent" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="200" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="memo" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="forwardRef" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="lazy" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#000000;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="Suspense" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="Fragment" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="Profiler" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="React组件类Api" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="510" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="lazy" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;fontSize=18;gradientColor=none;fillColor=#AD88C6;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
