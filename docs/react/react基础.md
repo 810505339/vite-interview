@@ -246,12 +246,17 @@ function DateRangePicker({list}){
 ### Suspense
 `Suspense`允许在子组件完成加载前展示后备方案。
 
+:::warning
+实验组件,后续会出`use`来包裹进行更好的使用
+:::
+
 ```tsx
 <Suspense fallback={<Loading />}>
   <SomeComponent />
 </Suspense>
 ```
 //todo
+
 
 ## 参考链接
 [react官方文档](https://react.docschina.org/reference/react)
