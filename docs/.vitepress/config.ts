@@ -217,6 +217,7 @@ function sidebar(): DefaultTheme.Sidebar {
         items: [
           { text: 'react基础总结', link: '/react/react基础' },
           { text: 'react-redux', link: '/react/redux' },
+          { text: 'react-native微信授权登录', link: '/react/react-native微信登录' },
 
         ],
         collapsed: true
