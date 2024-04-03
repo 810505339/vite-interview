@@ -1,5 +1,8 @@
 # react-native 微信授权
 因为`react-native-wechat`支持的sdk版本太低了,需要使用`react-native-wechat-lib`来实现微信授权功能。
+:::warning
+`react-native-wechat-lib`版本默认不是`3.0`以上,`react-native`最新版本请切换`3.0`以上版本
+:::
 
 ## 安卓
 ### 安装
@@ -111,8 +114,85 @@ public class WXEntryActivity extends Activity {
 }
 // )
 ```
+## ios
 
-4. 在组件中使用
+1. 在`ios/[...]/AppDelegate.h`中添加如下代码
+
+```objective-c
+#import <RCTAppDelegate.h>
+#import <UIKit/UIKit.h>
+#import "WXApi.h"  //这行
+@interface AppDelegate : RCTAppDelegate <UIApplicationDelegate, WXApiDelegate> //这里修改
+
+@end
+```
+
+2. 在`ios/[...]/AppDelegate.mm`中添加如下代码
+  
+``` objective-c
+  #import "AppDelegate.h"
+
+#import <React/RCTBundleURLProvider.h>
+#import <React/RCTLinkingManager.h>
+
+@implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+  self.moduleName = @"clubApp";
+  // You can add your custom initial props in the dictionary below.
+  // They will be passed down to the ViewController used by React Native.
+  self.initialProps = @{};
+
+  return [super application:application didFinishLaunchingWithOptions:launchOptions];
+}
+
+- (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
+{
+#if DEBUG
+  return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index"];
+#else
+  return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+#endif
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return  [WXApi handleOpenURL:url delegate:self];
+}
+
+- (BOOL)application:(UIApplication *)application
+  continueUserActivity:(NSUserActivity *)userActivity
+  restorationHandler:(void(^)(NSArray<id<UIUserActivityRestoring>> * __nullable
+  restorableObjects))restorationHandler {
+  // 触发回调方法
+  [RCTLinkingManager application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
+  return [WXApi handleOpenUniversalLink:userActivity
+  delegate:self];
+}
+
+// ios 9.0+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+            options:(NSDictionary<NSString*, id> *)options
+{
+  // Triggers a callback event.
+  // 触发回调事件
+  [RCTLinkingManager application:application openURL:url options:options];
+  return [WXApi handleOpenURL:url delegate:self];
+}
+
+@end
+```
+
+3. 在`ios/[...]/Podfile`中添加如下代码
+  
+```
+# 安装官方 SDK
+pod 'WechatOpenSDK'
+```
+
+
+
+## 在组件中使用
 ```tsx
 import * as React from 'react';
 
@@ -223,3 +303,6 @@ const styles = StyleSheet.create({
 });
 
 ```
+
+
+
