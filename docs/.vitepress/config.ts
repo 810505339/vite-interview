@@ -207,6 +207,7 @@ function sidebar(): DefaultTheme.Sidebar {
           { text: 'keep-alive详解', link: '/vue/keep-alive' },
           { text: '实现一个tabs', link: '/vue/如何实现一个tabs.md' },
           { text: 'useSlots跟useAttrs', link: '/vue/useSlots跟useAttrs.md' },
+          { text: '二次封装组件', link: '/vue/二次封装组件.md' },
         ],
         collapsed: true
       }
