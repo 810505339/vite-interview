@@ -15,7 +15,7 @@ yarn add react-native-wechat-lib@3.0.4
 
 ### 配置
 
-1. 在`android/app/src/main/java/[...]/MainActivity.java`中添加如下代码
+1. 在`android/app/src/main/java/[...]/MainApplication.kt`中添加如下代码
 ```java
 
 // 添加这个
